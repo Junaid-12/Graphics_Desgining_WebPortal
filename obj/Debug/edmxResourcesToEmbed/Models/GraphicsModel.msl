@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PraticsModelStoreContainer" CdmEntityContainer="PraticsEntities1">
+    <EntitySetMapping Name="infoes">
+      <EntityTypeMapping TypeName="PraticsModel.info">
+        <MappingFragment StoreEntitySet="info">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="mob" ColumnName="mob" />
+          <ScalarProperty Name="age" ColumnName="age" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="infosecs">
+      <EntityTypeMapping TypeName="PraticsModel.infosec">
+        <MappingFragment StoreEntitySet="infosec">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clints">
+      <EntityTypeMapping TypeName="PraticsModel.Clint">
+        <MappingFragment StoreEntitySet="Clint">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Fname" ColumnName="Fname" />
+          <ScalarProperty Name="Lname" ColumnName="Lname" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="Plane" ColumnName="Plane" />
+          <ScalarProperty Name="Describe" ColumnName="Describe" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
